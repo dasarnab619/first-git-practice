@@ -2,17 +2,17 @@
 from art import logo
 print(logo)
 
-def add(n1, n2):
-    return n1 + n2
+def add(number1, number2):
+    return number1 + number2
 
-def subtract(n1, n2):
-    return n1 - n2
+def subtract(number1, number2):
+    return number1 - number2
 
-def multiply(n1, n2):
-    return n1 * n2
+def multiply(number1, number2):
+    return number1 * number2
 
-def division(n1, n2):
-    return n1 / n2
+def division(number1, number2):
+    return number1 / number2
 
 math_dictionary = {
     "+": add,
